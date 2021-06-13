@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "2",
+    "numberOfLegs": 4,
+    "price": 30000,
+    "stock": 40,
+    "img": "koshka-na-divane.jpg"
+  },
+  {
+    "id": 2,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "1",
+    "numberOfLegs": 4,
+    "price": 40000,
+    "stock": "",
+    "img": "koshka-lejit-na-boku.jpg"
+  },
+  {
+    "id": 3,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "4",
+    "numberOfLegs": 4,
+    "price": 20000,
+    "stock": "",
+    "img": "koshka-sidit.jpg"
+  },
+  {
+    "id": 4,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "6",
+    "numberOfLegs": 4,
+    "price": 25000,
+    "stock": "",
+    "img": "koshka-na-divane.jpg"
+  },
+  {
+    "id": 5,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "3",
+    "numberOfLegs": 4,
+    "price": 30000,
+    "stock": 40,
+    "img": "koshka-sidit.jpg"
+  },
+  {
+    "id": 6,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "1",
+    "numberOfLegs": 4,
+    "price": 10000,
+    "stock": "",
+    "img": "koshka-lejit-na-boku.jpg"
+  },
+  {
+    "id": 7,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "8",
+    "numberOfLegs": 4,
+    "price": 15000,
+    "stock": "",
+    "img": "koshka-lejit-na-boku.jpg"
+  },
+  {
+    "id": 8,
+    "typeOfCat": "полосатый",
+    "color": "Рыжий",
+    "age": "16",
+    "numberOfLegs": 4,
+    "price": 13000,
+    "stock": "",
+    "img": "koshka-sidit.jpg"
+  },
+  {
+    "id": 9,
+    "typeOfCat": "полосатый",
+    "color": "Коричневый",
+    "age": "10",
+    "numberOfLegs": 4,
+    "price": 27000,
+    "stock": 40,
+    "img": "koshka-na-divane.jpg"
+  }
+]

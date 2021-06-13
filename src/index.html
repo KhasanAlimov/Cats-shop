@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="static/favicon.svg" type="image/x-icon" />
+
+    <title>Cats shop</title>
+  </head>
+  <body>
+    <header>
+      <!-- Тень над изображением -->
+      <div class="overlay"></div>
+
+      <div id="header-container" class="container">
+        <nav>
+          <!-- Logo -->
+          <a class="nav-logo" href="#">
+            <img src="./assets/img/logo.svg" alt="logo" />
+          </a>
+
+          <!-- Кнопка открытия меню -->
+          <din id="menu-container">
+            <div id="burger-menu-icon">
+              <i class="bi bi-list"></i>
+            </div>
+
+            <!-- Меню пункты -->
+            <div id="nav-collapse">
+              <span id="x-icon">
+                <i class="bi bi-x"></i>
+              </span>
+              <ul>
+                <li>
+                  <a href="#">Main</a>
+                </li>
+                <li>
+                  <a href="#">Gallery</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">Profile</a>
+                </li>
+              </ul>
+            </div>
+          </din>
+        </nav>
+
+        <!-- Телефон номер -->
+        <div class="tel_num">
+          <h2>
+            <a href="tel:+544 3490 00000">+544 3490 00000</a>
+          </h2>
+          <p>Звони скорее!</p>
+        </div>
+      </div>
+
+      <div id="found-cats" class="container"></div>
+    </header>
+
+    <main>
+      <!-- Сортировка -->
+      <div class="container">
+        <div class="sort">
+          <p class="sort-by">Сортировка по:</p>
+          <select name="sort_by_price" id="sort_by_price">
+            <option value="default" selected disabled>Цене &nbsp;</option>
+            <option value="price_ascending">Возрастанию</option>
+            <option value="price_descending">Убыванию</option>
+          </select>
+
+          <select name="sort_by_age" id="sort_by_age">
+            <option value="default" selected disabled>Возрасту &nbsp;</option>
+            <option value="age_ascending">Возрастанию</option>
+            <option value="age_descending">Убыванию</option>
+          </select>
+        </div>
+
+        <div id="products"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="title">
+          <h2>Успей купить!</h2>
+          <p>Подпишись и успей словить все акции</p>
+        </div>
+        <div class="subscribe-form">
+          <form action="">
+            <div class="email-block">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <input type="checkbox" name="allow-news" id="allow-news" />
+              <label for="allow-news">Подписаться на новости</label>
+            </div>
+
+            <button type="submit">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <span id="to-top">
+      <i class="bi bi-chevron-up"></i>
+    </span>
+  </body>
+</html>

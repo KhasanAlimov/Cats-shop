@@ -1,0 +1,25 @@
+// медиа адаптивность
+@mixin screen-res($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  } @else {
+    @error 'Не указано значение для `#{$breakpoint}`';
+  }
+}
+
+// Автоматическое уменьшение размера шрифта
+@mixin font-size($num, $percent) {
+  font-size: $num;
+
+  $screens: md, sm, xs;
+
+  @each $screen in $screens {
+    $percent: $percent + ($percent / 100 * 30);
+  
+    @include screen-res("#{$screen}") {
+      font-size: $num - ($num / 100 * $percent);
+    }
+  }
+}
