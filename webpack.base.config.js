@@ -19,7 +19,7 @@ module.exports = {
   output: {
     filename: `${Paths.assets}js/[name].js`,
     path: Paths.dist,
-    publicPath: "/webpack-demo/",
+    publicPath: "./",
   },
   devServer: {
     contentBase: "./dist",
