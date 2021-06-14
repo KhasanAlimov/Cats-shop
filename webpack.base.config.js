@@ -19,7 +19,10 @@ module.exports = {
   output: {
     filename: `${Paths.assets}js/[name].js`,
     path: Paths.dist,
-    publicPath: "/",
+    publicPath: "/webpack-demo/",
+  },
+  devServer: {
+    contentBase: "./dist",
   },
   module: {
     rules: [
@@ -97,7 +100,7 @@ module.exports = {
     new copyWebpackPlugin({
       patterns: [
         { from: `${Paths.src}/img`, to: `${Paths.assets}img` },
-        { from: `${Paths.src}/static`, to: 'static' },
+        { from: `${Paths.src}/static`, to: "static" },
       ],
       options: {
         concurrency: 100,
